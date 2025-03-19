@@ -12,7 +12,7 @@
             <td>Kasutajanimi:</td>
             <td>
                 <form>
-                    <input name="max pikkus 6">
+                    <input name="Kasutajanimi" type="text" placeholder="max pikkus 6" maxlength="6">
                 </form>
             </td>
         </tr>
@@ -20,7 +20,7 @@
             <td>Kursus:</td>
             <td>
                 <form>
-                    <input name="kursus">
+                    <input name="Kursus" type="text" placeholder="max pikkus 3" maxlength="3">
                 </form>
             </td>
         </tr>
@@ -28,7 +28,7 @@
             <td>Osakonna number:</td>
             <td>
                 <form>
-                    <input type="number" value="1" min="1" max="5" step="1">
+                    <input name="Osakonnanr" type="number" value="1" min="1" max="5" step="1">
                   </form>
             </td>
         </tr>
@@ -36,7 +36,7 @@
             <td>Parool:</td>
             <td>
                 <form>
-                    <input name="parool">
+                    <input name="parool" type="password">
                 </form>
             </td>
         </tr>
@@ -56,9 +56,9 @@
             <td>Roll:</td>
             <td>
                 <form>
-                    <input type="radio">Admin<br>
-                    <input type="radio">Moderaator<br>
-                    <input type="radio">User
+                    <input type="radio" name="Roll" value="Admin">Admin<br>
+                    <input type="radio" name="Roll" value="Moderaator">Moderaator<br>
+                    <input type="radio" name="Roll" value="User">User
                   </form>
             </td>
         </tr>
@@ -66,7 +66,7 @@
             <td>Nõustun tingimustega:</td>
             <td>
                 <form>
-                    <input type="checkbox">
+                    <input name="tingimused" type="checkbox">
                 </form>
             </td>
         </tr>
@@ -81,7 +81,7 @@
         <tr>
             <td>
                 <form>
-                    <input type="reset" value="Tühjenda väljad">
+                    <input type="submit" value="Tühjenda väljad">
                 </form>
             </td>
             <td>
