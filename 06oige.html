@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 06</title>
+</head>
+<body>
+    <h1>Vormide loomine</h1>
+    <form>
+    <table>
+        <tr>
+            <td>Kasutajanimi:</td>
+            <td>
+                <input name="Kasutajanimi" type="text" placeholder="max pikkus 6" maxlength="6">
+            </td>
+        </tr>
+        <tr>
+            <td>Kursus:</td>
+            <td>
+                <input name="Kursus" type="text" placeholder="max pikkus 3" maxlength="3">
+            </td>
+        </tr>
+        <tr>
+            <td>Osakonna number:</td>
+            <td>
+                <input name="Osakonnanr" type="number" value="1" min="1" max="5" step="1">
+            </td>
+        </tr>
+        <tr>
+            <td>Parool:</td>
+            <td>
+                <input name="parool" type="password">
+            </td>
+        </tr>
+        <tr>
+            <td>Vali teenus:</td>
+            <td>
+                <select>
+                    <option>Odav 0,59€</option>
+                    <option>Keskmine 5,5€</option>
+                    <option>Kallis 100,0€</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Roll:</td>
+            <td>
+                <input type="radio" name="Roll" value="Admin">Admin<br>
+                <input type="radio" name="Roll" value="Moderaator">Moderaator<br>
+                <input type="radio" name="Roll" value="User">User
+            </td>
+        </tr>
+        <tr>
+            <td>Nõustun tingimustega:</td>
+            <td>
+                <input name="tingimused" type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>Enesetutvustus:</td>
+            <td>
+                <textarea rows="10" cols="20"></textarea><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Tühjenda väljad">
+            </td>
+            <td>
+                <input type="submit" value="Saada">
+            </td>
+        </tr>
+    </table>
+    </form>
+    
+</body>
+</html>
