@@ -21,6 +21,16 @@
     font-size: larger;
 }
 
+/* Väiksemate ekraanide jaoks */
+@media (max-width: 768px) {
+    .header {
+        text-align: left;  /* Tekst vasakule */
+        padding: 20px;  /* Vähem paddingut */
+        line-height: normal; /* Normaalne reavahe */
+        font-size: medium; /* Väiksem font mobiilis */
+    }
+}
+
 .footer{
     background-color: #97a7bc;
     color: #fff;
