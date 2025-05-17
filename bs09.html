@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Kasutajad</h1>
+            <div class="row mb-3">
+
+                <div class="col-sm-9">
+                        <a href="#" class="btn btn-success">+ Lisa uus</a>
+                </div>
+
+                <div class="col-sm-3">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="otsing" aria-label="Otsi"/>
+                        <button class="btn btn-success" type="submit">Otsi</button>
+                    </form>
+                </div>
+
+            </div>
+    <!--table>tr>th*6-->
+    <table class="table table-striped">
+        <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Pilt</th>
+            <th>Nimi</th>
+            <th>Email</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td><img src="https://picsum.photos/id/684/50/50" alt="pilt" class="img-fluid rounded-circle"></td>
+            <td>Mari Maasikas</td>
+            <td>Maasikas@email.ee</td>
+            <td><a href="#" class="btn btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-danger">Kustuta</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="https://picsum.photos/id/500/50/50" alt="pilt" class="img-fluid rounded-circle"></td>
+            <td>Karin Eegreid</td>
+            <td>karineegreid@email.ee</td>
+            <td><a href="#" class="btn btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-danger">Kustuta</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="https://picsum.photos/id/400/50/50" alt="pilt" class="img-fluid rounded-circle"></td>
+            <td>Anna Maasikas</td>
+            <td>Anna@email.ee</td>
+            <td><a href="#" class="btn btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-danger">Kustuta</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="https://picsum.photos/id/100/50/50" alt="pilt" class="img-fluid rounded-circle"></td>
+            <td>Ülle Doos</td>
+            <td>Ülledoos@email.ee</td>
+            <td><a href="#" class="btn btn-warning">Muuda</a></td>
+            <td><a href="#" class="btn btn-danger">Kustuta</a></td>
+        </tr>
+    </table>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
